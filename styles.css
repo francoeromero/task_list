@@ -95,10 +95,11 @@
             border: none;
             cursor: pointer;
             user-select: none;
-            border: 3px solid #407ba6;
+            background: #407ba6;
+            border:none;
         }
         button:hover{
-            background-color: #407ba6;
+            background-color: #3175a5;
             transition: 0.4s;
         }
         #lista-de-tareas{
