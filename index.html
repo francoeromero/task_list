@@ -9,10 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./img/task_list.png">
 </head>
 <body>
     <main class="contenedor">
-        <h1>Mis tareas</h1>
+        <div class="rotulo">
+            <div class="content-circle">
+              <div class="circle rojo"></div>
+              <div class="circle amarillo"></div>
+              <div class="circle verde"></div>
+            </div>
+            <div class="content-name">
+              <p class="name">@francoeromero</p>
+            </div>
+          </div>
+        <h1 class="titulo">Mis tareas</h1>
         <input type="text" id="ingresar-tarea" placeholder="Ingresa una tarea">
         <button type="submit">Crear Tarea</button>
         <div id="lista-de-tareas">
